@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/acdflibrary/static/css/main.b182bfc5.css",
-    "main.js": "/acdflibrary/static/js/main.30baafc0.js",
+    "main.js": "/acdflibrary/static/js/main.e895873d.js",
     "static/js/787.154ea238.chunk.js": "/acdflibrary/static/js/787.154ea238.chunk.js",
     "static/media/Stratos-Medium.ttf": "/acdflibrary/static/media/Stratos-Medium.acd30a88b21529596e10.ttf",
     "static/media/home_bg.png": "/acdflibrary/static/media/home_bg.bc115f703c0534ec2669.png",
@@ -15,11 +15,11 @@
     "index.html": "/acdflibrary/index.html",
     "static/media/arrow-right [footer].svg": "/acdflibrary/static/media/arrow-right [footer].9bde888a81fa96b3ff38c9176ba73917.svg",
     "main.b182bfc5.css.map": "/acdflibrary/static/css/main.b182bfc5.css.map",
-    "main.30baafc0.js.map": "/acdflibrary/static/js/main.30baafc0.js.map",
+    "main.e895873d.js.map": "/acdflibrary/static/js/main.e895873d.js.map",
     "787.154ea238.chunk.js.map": "/acdflibrary/static/js/787.154ea238.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b182bfc5.css",
-    "static/js/main.30baafc0.js"
+    "static/js/main.e895873d.js"
   ]
 }
