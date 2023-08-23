@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'Futura PT';
+  font-weight: 500; /* Medium */
+  src: url('./FuturaPT-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-weight: 400; /* Book */
+  src: url('./FuturaPT-Book.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-weight: 600; /* Demi */
+  src: url('./FuturaPT-Demi.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Futura PT';
+  font-weight: 700; /* Bold */
+  src: url('./FuturaPT-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Stratos';
+  font-weight: 500; /* Medium */
+  src: url('./Stratos-Medium.ttf') format('truetype');
+}

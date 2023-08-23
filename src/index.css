@@ -1,13 +1,42 @@
+@import './fonts/fonts.css';
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Futura PT', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background-color: #F6F5F1;
+
+  text-rendering: optimizeLegibility;
+    /* Для лучшей читаемости */
+  text-rendering: geometricPrecision;
+    /* Для лучшей геометрической точности */
+
+  -webkit-font-smoothing: antialiased;
+  /* Для сглаживания на браузерах, использующих Webkit (Safari, Chrome) */
+  -moz-osx-font-smoothing: grayscale;
+  /* Для сглаживания на Firefox */
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+
+  -moz-osx-font-smoothing: grayscale; /* Для сглаживания на Firefox */
+  text-rendering: geometricPrecision; /* Для лучшей геометрической точности */}
+
+button {
+  padding: 0;
+}
+
+ul {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-inline-start: 0px;
 }

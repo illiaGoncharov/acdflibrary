@@ -1,0 +1,11 @@
+.main {
+    width: calc(100% - 92px);
+    margin: 0 auto;
+    max-width: calc(1440px - 92px);
+}
+
+@media (max-width: 767px) {
+    .main {
+        width: calc(100% - 40px);
+    }
+}

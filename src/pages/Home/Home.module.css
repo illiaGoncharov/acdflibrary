@@ -1,0 +1,29 @@
+.bg_container {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    left: 0;
+}
+
+.bg {
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+.bgM {
+    top: 0;
+    width: 100%;
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .bg {
+        display: none;
+    }
+
+    .bgM {
+        display: block;
+    }
+}

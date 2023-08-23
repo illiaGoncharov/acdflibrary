@@ -1,0 +1,125 @@
+.app_footer {
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #282828;
+  color: #F6F5F1;
+}
+
+.container {
+  width: calc(100% - 92px);
+  margin: 0 auto;
+  max-width: calc(1440px - 92px);
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 46px;
+  padding-bottom: 46px;
+}
+
+.column:nth-child(1) {
+  max-width: 313px;
+}
+
+.label {
+  color: #f6f5f1;
+  font-family: "FuturaPT-Demi", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 250px;
+  padding-top: 84px;
+  padding-bottom: 20px;
+}
+
+.licence {
+  color: #f6f5f1;
+  font-family: "FuturaPT-Book", Helvetica;
+  font-size: 10px;
+  font-weight: 400;
+  max-width: 250px;
+  padding-top: 71px;
+}
+
+.column:nth-child(2) {
+  width: 50%;
+}
+
+.footer_nav {
+  height: 66px;
+  border-bottom: 1px solid #f6f5f1;
+  padding-top: 11px;
+}
+
+.footer_list {
+  display: flex;
+  list-style: none;
+  gap: 41px;
+}
+
+.footer_list_item {
+  color: #f6f5f1;
+  font-family: "FuturaPT-Book", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.info_container {
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+}
+
+.info_header {
+  color: #f6f5f1;
+  font-family: "FuturaPT-Book", Helvetica;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+}
+
+.info_text {
+  color: #f6f5f1;
+  font-family: "Futura PT-Regular", Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+  padding-right: 10px;
+}
+
+@media (max-width: 767px) {
+  .container {
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: calc(100% - 40px);
+  }
+
+  .column:nth-child(1),
+  .column:nth-child(2) {
+    max-width: 100%;
+  }
+
+  .label,
+  .licence {
+    padding-top: 20px;
+    padding-bottom: 21px;
+  }
+
+  .footer_nav {
+    height: initial;
+    border-bottom: 1px solid #f6f5f1;
+    padding-bottom: 30px;
+  }
+
+  .footer_list {
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .info_container {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
