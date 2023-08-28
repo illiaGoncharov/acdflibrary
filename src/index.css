@@ -1,5 +1,9 @@
 @import './fonts/fonts.css';
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
   font-family: 'Futura PT', sans-serif;
@@ -17,7 +21,6 @@ body {
   /* Для сглаживания на браузерах, использующих Webkit (Safari, Chrome) */
   -moz-osx-font-smoothing: grayscale;
   /* Для сглаживания на Firefox */
-
 }
 
 p {
@@ -39,4 +42,8 @@ ul {
   margin-block-start: 0;
   margin-block-end: 0;
   padding-inline-start: 0px;
+}
+
+.no-scroll {
+  overflow: hidden;
 }

@@ -1,6 +1,7 @@
 .app_footer {
   width: 100%;
   max-width: 1440px;
+  /* margin: 100px auto 0; */
   margin: 0 auto;
   background-color: #282828;
   color: #F6F5F1;
@@ -19,6 +20,11 @@
 
 .column:nth-child(1) {
   max-width: 313px;
+}
+
+.logo {
+  height: 84px;
+  width: auto;
 }
 
 .label {
@@ -85,7 +91,7 @@
   font-family: "Futura PT-Regular", Helvetica;
   font-size: 16px;
   font-weight: 400;
-  padding-right: 10px;
+  padding-right: 25px;
 }
 
 @media (max-width: 767px) {

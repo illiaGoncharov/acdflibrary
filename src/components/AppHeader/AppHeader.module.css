@@ -12,21 +12,28 @@
 
 .logo {
   height: 84px;
-  width: 120px;
+  width: auto;
 }
 
 .navbar {
   display: flex;
   align-items: center;
   gap: 69px;
+  margin-left: 100px;
 }
 
 .links {
-  color: #282828;
-  font-family: "FuturaPT-Demi", Helvetica;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: center;
   text-decoration: none;
+  color: #282828;
+}
+
+.links:hover {
+  opacity: .6;
 }
 
 .help {
@@ -55,20 +62,48 @@
   z-index: 9999;
 }
 
-.mobile_links {
-  display: block;
-  color: #282828;
-  font-size: 24px;
-  text-decoration: none;
+.mobile_navbar {
+  padding-top: 100px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
 }
 
+.flower_container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
 
-@media (max-width: 767px) {
+.mobile_links {
+  font-family: "Stratos-Medium", Helvetica;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 42px;
+  color: #282828;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mobile_help {
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+@media (max-width: 900px) {
   .app_header {
+    height: 80px;
     width: calc(100% - 40px);
     max-width: calc(1440px - 40px);
     padding: 10px 20px;
     border-bottom: none;
+  }
+
+  .logo {
+    height: auto;
+    width: 100px;
   }
 
   .navbar,
@@ -78,31 +113,12 @@
 
   .burger {
     display: block;
-    
     cursor: pointer;
   }
 
-  .burger_line {
-    display: block;
-    width: 25px;
-    height: 3px;
-    background-color: #282828;
-    margin: 4px 0;
-  }
-
   .mobile_menu.active {
-    display: block;
-  }
-  
-  .burger.active .burger-line:nth-child(1) {
-    transform: rotate(45deg) translate(5px, 5px);
-  }
-
-  .burger.active .burger-line:nth-child(2) {
-    opacity: 0;
-  }
-
-  .burger.active .burger-line:nth-child(3) {
-    transform: rotate(-45deg) translate(5px, -5px);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
   }
 }

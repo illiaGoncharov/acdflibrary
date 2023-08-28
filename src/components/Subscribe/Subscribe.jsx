@@ -1,8 +1,11 @@
 import React, { useState } from 'react';
 import styles from './SubscribeForm.module.css'; // Подключите стили
 import arrow from '../../images/arrow-right [footer].svg';
+import { useTranslation } from 'react-i18next';
 
-function SubscribeForm() {
+function SubscribeForm({ customStyles }) {
+    const { t } = useTranslation();
+
     const [email, setEmail] = useState('');
     const [emailError, setEmailError] = useState('');
     const [submissionSuccess, setSubmissionSuccess] = useState(false);
@@ -50,7 +53,7 @@ function SubscribeForm() {
 
 
     return (
-        <form className={styles.input_container} onSubmit={handleSubmit}>
+        <form className={`${styles.input_container} ${customStyles}`} onSubmit={handleSubmit}>
             <input
                 className={`${styles.input} ${emailError ? styles.input_error : ''}`}
                 type="email"
@@ -60,12 +63,10 @@ function SubscribeForm() {
             />
             {emailError && <p className={styles.error_message}>{emailError}</p>}
             {submissionSuccess && <p className={styles.success_message}>Вы подписались!</p>}
-            <div className={styles.submit_container}>
-                <button className={styles.input_submit} type="submit">
-                    Подписаться
-                    <img className={styles.arrow} src={arrow} alt=">" />
-                </button>
-            </div>
+            <button className={styles.input_submit} type="submit">
+                {t('input_submit')}
+                <img className={styles.arrow} src={arrow} alt=">" />
+            </button>
         </form>
     );
 }

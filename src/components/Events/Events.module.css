@@ -1,0 +1,191 @@
+.events {
+    margin-top: 75px;
+}
+
+.events_header {
+    color: #282828;
+    font-family: "Stratos", Helvetica;
+    font-size: 48px;
+    font-weight: 500;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.events_header::before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: -24px;
+    /* transform: translateY(-50%); */
+    width: 69px;
+    height: 69px;
+    background-image: url('./../../images/spot[orange].svg');
+    background-size: cover;
+    z-index: -1;
+}
+
+.events_container {
+    width: 100vw;
+    max-width: 1440px;
+    margin-left: -48px;
+    background-color: #f2eddd;
+    margin-top: 42px;
+}
+
+.events_main {
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.events_column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.events_theme {
+    color: #282828;
+    font-family: "FuturaPT-Book", Helvetica;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.events_inner_header {
+    padding-top: 7px;
+    color: #282828;
+    font-family: "FuturaPT-Demi", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.events_text {
+    padding-top: 8px;
+    color: #282828;
+    font-family: "FuturaPT-Book", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 500px;
+}
+
+.events_more {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    cursor: pointer;
+}
+
+.events_column:nth-child(2) {
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.events_img {
+    transition: transform 0.3s ease;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.events_submain_container {
+    position: relative;
+    display: flex;
+    color: #F6F5F1;
+    cursor: pointer;
+}
+
+.events_submain {
+    width: calc(100% / 3);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 550px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.events_submain:nth-child(1) {
+    background: #E37470;
+}
+
+.events_submain:nth-child(2) {
+    background: #344D32;
+}
+
+.events_submain:nth-child(3) {
+    background: #F49D61;
+}
+
+/* Cредний блок  */
+.events_submain:nth-child(even) {
+    text-align: center;
+    padding-top: 224px;
+    display: flex;
+    justify-content: space-between;
+}
+.events_submain:nth-child(even) .events_submain_inner_header {
+    max-width: 100%;
+}
+.events_submain:nth-child(even) .events_submain_text {
+    padding-top: 31px;
+    max-width: 100%;
+}
+.events_submain:nth-child(even) .events_club {
+    position: absolute;
+    top: 0;
+    right: 25px;
+}
+.events_submain:nth-child(even) .events_submain_bottom {
+    text-align: left;
+}
+
+.events_submain_theme {
+    text-transform: uppercase;
+}
+
+.events_submain_theme span {
+    font-weight: bold;
+}
+
+.events_submain_inner_header {
+    color: #f6f5f1;
+    font-family: "FuturaPT-Demi", Helvetica;
+    font-size: 32px;
+    font-weight: 400;
+    max-width: 350px;
+    line-height: 36px;
+    padding-top: 7px;
+}
+
+.events_submain_text {
+    color: #f6f5f1;
+    font-family: "FuturaPT-Book", Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 350px;
+    line-height: 24px;
+    padding-top: 7px;
+}
+
+.events_submain_bottom {
+    display: flex;
+    justify-content: space-between;
+}
+
+.events_submain_bottom p {
+    text-transform: uppercase;
+}
+
+.events_submain_bottom p:nth-child(2) {
+    text-align: right;
+}
+
+.events_submain_img {
+    position: absolute;
+    bottom: 35px;
+    left: 15%;    
+    width: 70%;
+}
+
+

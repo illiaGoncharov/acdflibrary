@@ -2,7 +2,7 @@ import styles from './Hero.module.css';
 import { useTranslation } from 'react-i18next';
 
 function Hero() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('home');
 
   return (
     <>
@@ -11,12 +11,12 @@ function Hero() {
           <img className={styles.img" alt="Arrowsimple left" src="image.svg" /> */}
         <div className={styles.app_hero}>
           <div className={styles.header}>
-            Добро пожаловать
+            {t('hero-headline')}
           </div>
           <p className={styles.text}>
             {t('hero-zadumana')}
           </p>
-          <button className={styles.button}>УЗНАТЬ БОЛЬШЕ</button>
+          <button className={styles.button}>{t('hero-button')}</button>
         </div>
       </div>
     </>

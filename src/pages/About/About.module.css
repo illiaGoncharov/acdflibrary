@@ -1,0 +1,155 @@
+.hero_header {
+    color: #282828;
+    font-family: "Stratos-Medium", Helvetica;
+    text-transform: uppercase;
+    padding-top: 150px;
+    font-size: 80px;
+    font-weight: 500;
+    line-height: 100px;
+    text-align: center;
+}
+
+.aboutOne {
+    padding-top: 150px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bird {
+    position: absolute;
+    left: -48px;
+    /* left: -200px; */
+    /* transform: scaleX(-1); */
+    max-height: 750px;
+}
+
+.text_container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 52px;
+}
+
+.text_header {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+    max-width: 500px;
+}
+
+.lib {
+    padding-top: 32px;
+}
+
+.text_basic {
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.about_type_two {
+    height: 450px;
+    display: flex;
+    justify-content: space-between;   
+    position: relative;
+}
+
+.about_type_two > .bg_biege {
+    position: absolute;
+    top: 0;
+    left: -48px;
+    min-width: 1440px;
+    height: inherit;
+    width: 100%;
+    background-color: #F2EDDD;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.bg_biege_line {
+    position: absolute;
+    left: 0;
+    bottom: -150px;
+}
+
+.bg_biege_circle {
+    position: absolute;
+    right: 0;
+    bottom: -250px;
+}
+
+.about_column {
+    padding-top: 40px;
+    width: 50%;
+}
+
+.text_header_type_two {
+    padding-top: 20px;
+    font-family: 'Stratos';
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 52px;
+    text-transform: uppercase;
+}
+
+.bg_biege_lepnina {
+    width: 1440px;
+    min-width: 100%;
+    margin-left: -48px;
+}
+
+.about_type_three {
+    height: 650px;
+}
+
+.fund_logo {
+    padding-top: 45px;
+    width: 150px;
+}
+
+.bg_white {
+    position: absolute;
+    width: 1440px;
+    left: -48px;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bg_biege_flower {
+    position: absolute;
+    right: -150px;
+    bottom: -350px;
+}
+
+.bg_container {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 100vw;
+    left: 0;
+}
+
+.bg {
+    top: 0;
+    width: 100%;
+    display: block;
+}
+
+.bgM {
+    top: 0;
+    width: 100%;
+    display: none;
+}
+
+@media (max-width: 767px) {
+    .bg {
+        display: none;
+    }
+
+    .bgM {
+        display: block;
+        object-fit: contain;
+    }
+}

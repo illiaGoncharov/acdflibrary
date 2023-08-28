@@ -1,9 +1,13 @@
 .bg_container {
+    width: 100vw;
+    /* max-width: 1440px; */
     position: absolute;
     top: 0;
-    z-index: -1;
-    width: 100vw;
     left: 0;
+    right: 0;
+    margin-left: 0;
+    margin-right: 0;
+    z-index: -1;
 }
 
 .bg {
@@ -25,5 +29,6 @@
 
     .bgM {
         display: block;
+        object-fit: contain;
     }
 }

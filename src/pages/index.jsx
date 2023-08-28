@@ -1,6 +1,6 @@
 import Home from "./Home/Home";
 import About from "./About/About";
-import Events from "./Events/Events";
+import EventsPage from "./EventsPage/EventsPage";
 import Media from "./Media/Media";
 
-export { Home, About, Events, Media }
+export { Home, About, EventsPage, Media }

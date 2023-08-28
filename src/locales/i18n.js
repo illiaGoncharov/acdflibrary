@@ -3,14 +3,40 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 // Подключите языковые файлы
-import translationRU from './ru/translation.json';
-import translationEN from './en/translation.json';
-import translationUZ from './uz/translation.json';
+import headerRU from './ru/headerRU.json';
+import footerRU from './ru/footerRU.json';
+import homeRU from './ru/homeRU.json';
+import aboutRU from './ru/aboutRU.json';
+
+import headerEN from './en/headerEN.json';
+import footerEN from './en/footerEN.json';
+import homeEN from './en/homeEN.json';
+import aboutEN from './en/aboutEN.json';
+
+import headerUZ from './uz/headerUZ.json';
+import footerUZ from './uz/footerUZ.json';
+import homeUZ from './uz/homeUZ.json';
+import aboutUZ from './uz/aboutUZ.json';
 
 const resources = {
-  ru: { translation: translationRU },
-  en: { translation: translationEN },
-  uz: { translation: translationUZ },
+  ru: { 
+    header: headerRU,
+    footer: footerRU,
+    home: homeRU,
+    about: aboutRU,
+  },
+  en: { 
+    header: headerEN,
+    footer: footerEN,
+    home: homeEN,
+    about: aboutEN,
+  },
+  uz: { 
+    header: headerUZ,
+    footer: footerUZ,
+    home: homeUZ,
+    about: aboutUZ,
+  },
 };
 
 i18n.use(initReactI18next).init({
