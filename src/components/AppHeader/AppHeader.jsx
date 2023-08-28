@@ -36,7 +36,7 @@ function AppHeader() {
             className={styles.logo} 
             alt="Логотип" 
             src={logoPaths[`header`][currentLanguage]} />
-          </Link>
+        </Link>
         <div className={styles.navbar}>
           <Link to="/about" className={styles.links}><div>{t('menu-about')}</div></Link>
           <Link to="/events" className={styles.links}><div>{t('menu-events')}</div></Link>

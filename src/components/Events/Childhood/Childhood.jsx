@@ -1,11 +1,13 @@
-import styles from "./Event31.module.css";
+import styles from "./Childhood.module.css";
 
-function Event31() {
+function Childhood() {
   return (
     <>
         <div className={styles.event_container}>
             <div className={styles.program}>
-                <p className={styles.header}></p>
+                <p className={styles.header}>
+                  
+                </p>
             </div>
             <div className={styles.sidebar}>
                 
@@ -15,5 +17,5 @@ function Event31() {
   );
 };
 
-export default Event31;
+export default Childhood;
 

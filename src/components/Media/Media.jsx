@@ -1,6 +1,6 @@
 import styles from "./Media.module.css";
 
-import MaterialCard from "./../MaterialCard/MaterialCard";
+// import MaterialCard from "./../MaterialCard/MaterialCard";
 
 function Media() {
     return (

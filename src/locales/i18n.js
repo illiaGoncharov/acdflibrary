@@ -7,16 +7,22 @@ import headerRU from './ru/headerRU.json';
 import footerRU from './ru/footerRU.json';
 import homeRU from './ru/homeRU.json';
 import aboutRU from './ru/aboutRU.json';
+import mediaRU from './ru/mediaRU.json';
+import eventsRU from './ru/eventsRU.json';
 
 import headerEN from './en/headerEN.json';
 import footerEN from './en/footerEN.json';
 import homeEN from './en/homeEN.json';
 import aboutEN from './en/aboutEN.json';
+import mediaEN from './en/mediaEN.json';
+import eventsEN from './en/eventsEN.json';
 
 import headerUZ from './uz/headerUZ.json';
 import footerUZ from './uz/footerUZ.json';
 import homeUZ from './uz/homeUZ.json';
 import aboutUZ from './uz/aboutUZ.json';
+import mediaUZ from './uz/mediaUZ.json';
+import eventsUZ from './uz/eventsUZ.json';
 
 const resources = {
   ru: { 
@@ -24,18 +30,24 @@ const resources = {
     footer: footerRU,
     home: homeRU,
     about: aboutRU,
+    media: mediaRU,
+    events: eventsRU,
   },
   en: { 
     header: headerEN,
     footer: footerEN,
     home: homeEN,
     about: aboutEN,
+    media: mediaEN,
+    events: eventsEN,
   },
   uz: { 
     header: headerUZ,
     footer: footerUZ,
     home: homeUZ,
     about: aboutUZ,
+    media: mediaUZ,
+    events: eventsUZ
   },
 };
 

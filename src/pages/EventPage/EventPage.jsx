@@ -1,11 +1,22 @@
-import styles from "./EventPage.module.css";
+// import styles from "./EventPage.module.css";
+import { useParams } from 'react-router-dom';
 
-const EventPage = ({customClass, children}) => {
+function EventPage() {
+    const { eventId } = useParams();
+    let content;
+    if (eventId === 'ceremony') {
+        const Ceremony = require('../../components/Events/Ceremony/Ceremony').default; // Импорт модуля
+        content = <Ceremony />;
+    } else if (eventId === 'childhood') {
+        const Childhood = require('../../components/Events/Childhood/Childhood').default; // Импорт модуля
+        content = <Childhood />;
+    } else {
+        content = <>404</>;
+    }
+
     return (
         <>
-            <div className={customClass}>
-                {children}
-            </div>
+            {content}
         </>
     );
 };

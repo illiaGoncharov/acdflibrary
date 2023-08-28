@@ -11,7 +11,11 @@ import test3 from "../../images/media_img_test_3.png";
 
 import MaterialCard from '../../components/MaterialCard/MaterialCard'
 
+import { useTranslation } from 'react-i18next';
+
 const Media = () => {
+    const { t } = useTranslation('media')
+
     // const [isChildFilterClicked, setIsChildFilterClicked] = useState(true);
     // const [isAllFilterClicked, setIsAllFilterClicked] = useState(false);
 
@@ -32,7 +36,7 @@ const Media = () => {
     return (
         <div>
             <div>
-                <h1 className={styles.hero_header}>Материалы</h1>
+                <h1 className={styles.hero_header}>{t('media_headline')}</h1>
                 <div className={styles.bg_container}>
                     <img className={styles.bg} src={bg} alt="" />
                     {/* <img className={styles.bgM} src={bgM} alt="" /> */}
@@ -67,7 +71,7 @@ const Media = () => {
             </div> */}
             <div className={styles.disclaimer}>
                 <p>
-                    Как провести время с детьми, чтобы всем было полезно и интересно: книги, музыка, мультфильмы и игры, отобранные экспертами
+                    {t('media_text')}
                 </p>
             </div>
             <div className={styles.materials}>

@@ -9,7 +9,7 @@ import AppFooter from '../AppFooter/AppFooter';
 
 import styles from './App.module.css';
 
-import { Home, About, EventsPage, Media } from './../../pages/index';
+import { Home, About, EventsPage, Media, EventPage } from './../../pages/index';
 
 function App() {
 
@@ -33,6 +33,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/events" element={<EventsPage />} />
           <Route path="/media" element={<Media />} />
+          <Route path="/event/:eventId" element={<EventPage />} />
         </Routes>
       </main>
       <AppFooter />
