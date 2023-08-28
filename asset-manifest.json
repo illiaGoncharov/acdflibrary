@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/acdflibrary/static/css/main.d25a9e2b.css",
-    "main.js": "/acdflibrary/static/js/main.4892d8f0.js",
+    "main.css": "/acdflibrary/static/css/main.0bb55faa.css",
+    "main.js": "/acdflibrary/static/js/main.aea8eeb3.js",
     "static/js/787.154ea238.chunk.js": "/acdflibrary/static/js/787.154ea238.chunk.js",
     "static/media/about_page_lepnina.png": "/acdflibrary/static/media/about_page_lepnina.240471bab78e01d8ed3b.png",
     "static/media/about_page_lib.png": "/acdflibrary/static/media/about_page_lib.6b3c0439464199e1237e.png",
+    "static/media/ceremony.png": "/acdflibrary/static/media/ceremony.288620d29129671f95b5.png",
     "static/media/main_page_eventMain.png": "/acdflibrary/static/media/main_page_eventMain.9dd5e0727df43233ab60.png",
     "static/media/UACF-logo black-RU.png": "/acdflibrary/static/media/UACF-logo black-RU.3f8ae532075371fa9300.png",
     "static/media/media_img_test_2.png": "/acdflibrary/static/media/media_img_test_2.772a42098c811a5e02ad.png",
@@ -15,6 +16,7 @@
     "static/media/Stratos-Medium.ttf": "/acdflibrary/static/media/Stratos-Medium.acd30a88b21529596e10.ttf",
     "static/media/media_img_test_3.png": "/acdflibrary/static/media/media_img_test_3.dc0ba057ea3a3efe6fb5.png",
     "static/media/about_page_bird_2.png": "/acdflibrary/static/media/about_page_bird_2.3b933dd8c9f4a71d2647.png",
+    "static/media/events_page_bg.png": "/acdflibrary/static/media/events_page_bg.86903335d5ffc558603b.png",
     "static/media/media_img_test_1.png": "/acdflibrary/static/media/media_img_test_1.d204a77d73c2b9d0499d.png",
     "static/media/main_page_eventsTwo.png": "/acdflibrary/static/media/main_page_eventsTwo.fef8b8353d02ab37fba2.png",
     "static/media/main_page_eventsOne.png": "/acdflibrary/static/media/main_page_eventsOne.6559dc2487cbdb8822ea.png",
@@ -45,12 +47,12 @@
     "static/media/header_cross.svg": "/acdflibrary/static/media/header_cross.f79627942bcfd7f02e4a421c9310e069.svg",
     "static/media/header_ham.svg": "/acdflibrary/static/media/header_ham.bcbebe0b896a67bffce6fd6c9ad27907.svg",
     "static/media/arrow-right [footer].svg": "/acdflibrary/static/media/arrow-right [footer].8367b7be2b692c745136e61033d8320b.svg",
-    "main.d25a9e2b.css.map": "/acdflibrary/static/css/main.d25a9e2b.css.map",
-    "main.4892d8f0.js.map": "/acdflibrary/static/js/main.4892d8f0.js.map",
+    "main.0bb55faa.css.map": "/acdflibrary/static/css/main.0bb55faa.css.map",
+    "main.aea8eeb3.js.map": "/acdflibrary/static/js/main.aea8eeb3.js.map",
     "787.154ea238.chunk.js.map": "/acdflibrary/static/js/787.154ea238.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d25a9e2b.css",
-    "static/js/main.4892d8f0.js"
+    "static/css/main.0bb55faa.css",
+    "static/js/main.aea8eeb3.js"
   ]
 }
