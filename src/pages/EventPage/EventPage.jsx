@@ -1,9 +1,11 @@
-import React from 'react';
+import styles from "./EventPage.module.css";
 
-const EventPage = () => {
+const EventPage = ({customClass, children}) => {
     return (
         <>
-
+            <div className={customClass}>
+                {children}
+            </div>
         </>
     );
 };

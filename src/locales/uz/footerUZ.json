@@ -1,6 +1,20 @@
 { 
+  "footer_menu-item_1": "Kutubxonahaqida",
+  "footer_menu-item_2": "Tadbirlar",
+  "footer_menu-item_3": "Jurnal",
+  
   "input_submit": "A'zo bo'lish",
 
   "footer_licence": "Litsenziya shartnomasi Maxfiy ma'lumotlarni qayta ishlash va himoya qilish siyosati Reklama-ma'lumotlarni yuborishga rozilik",
-  "footer_subscribe": "Kutubxona yangiliklariga obuna bo'ling"
+  "footer_subscribe": "Kutubxona yangiliklariga obuna bo'ling",
+  
+  "footer_contact": "Kontaktlar",
+  "footer_contact-info": "+998 71 236 22 01 welcome@acdf.org",
+
+  "footer_time": "Ish vaqti",
+  "footer_time-info": "Har kuni, 11:00–22:00 Kitoblarni berish soat 30 daqiqa oldin tugaydi",
+
+  "footer_adress": "Manzil",
+  "footer_adress-info": "Toshkent shahri, Yaxyo' Gulyamov ko'chasi, 47-uy",
+  "footer_map-info": "Xaritada"
 }

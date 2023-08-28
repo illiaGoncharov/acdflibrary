@@ -1,8 +1,8 @@
-import Hero from './../../components/Hero/Hero';
-import About from './../../components/About/About';
-import Info from './../../components/Info/Info';
-import Events from './../../components/Events/Events';
-import Form from './../../components/Form/Form';
+import Hero from './../../components/Home/Hero/Hero';
+import About from './../../components/Home/About/About';
+import Info from './../../components/Home/Info/Info';
+import Events from './../../components/Home/Events/Events';
+import Form from './../../components/Home/Form/Form';
 
 import styles from './Home.module.css';
 import bg from './../../images/home_bg.png';

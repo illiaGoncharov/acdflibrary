@@ -1,6 +1,20 @@
 { 
+  "footer_menu-item_1": "About the Library",
+  "footer_menu-item_2": "Events",
+  "footer_menu-item_3": "Journal",
+  
   "input_submit": "Subscribe",
 
   "footer_licence": "License Agreement Personal Data Processing and Protection Policy Consent to Receive Advertising and Information Mailings",
-  "footer_subscribe": "Subscribe to Library news"
+  "footer_subscribe": "Subscribe to Library news",
+
+  "footer_contact": "Contact",
+  "footer_contact-info": "+998 71 236 22 01 welcome@acdf.org",
+
+  "footer_time": "Opening Hours",
+  "footer_time-info": "Daily, 11:00–22:00 Book issuance concludes 30 minutes before closing",
+
+  "footer_adress": "Address",
+  "footer_adress-info": "Tashkent, Yakhyo Gulyamov Street, House 47",
+  "footer_map-info": "On the Map"
 }

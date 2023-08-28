@@ -1,6 +1,13 @@
-{ 
-  "menu-about": "О Библиотеке",
-  "menu-events": "События",
-  "menu-media": "Материалы",
-  "menu-help": "ОТКРЫТЫ СЕГОДНЯ 10:00 - 21:00"
+{
+  "about_header": "Kutubxona haqida",
+
+  "about_big-text": "Respublika bolalar kutubxonasi — bu zamonaviy kitobiy institut, madaniy markaz va bolalar va kattalar uchun tarixiy binoda jamoatchilik maydoni.",
+  "about_text_1": "Loyiha markazi — 1965 yilgi tarixdan buyon Toshkentliklar tomonidan tanilgan va eslay oladigan bolalar kutubxonasidir: u 1965 yildan buyon ushbu joyda faoliyat yuritmoqda. Bugungi kunlarda kutubxona ochiq kitob fondi, maʼlumotlar va maʼlumotlar bilan tanishish boʻyicha master-klasslar, qiziqarli klublar va maʼlumotlarga bepul kirish imkoniyatiga ega boʻlgan umumiy dasturlar mavjud.",
+  "about_text_2": "Dastur asosiy eʼtibor beringan boʻlib, bu 3-16 yoshgacha bolalarga moʻljallangan. Ular uchun kutubxonada oʻqish, tashqi oʻquv va potentsialni rivojlantirish uchun muvaffaqiyatli muhit yaratilgan. Biz shuningdek, bu faqat bolalarga emas, balki dastur kutubxonasi ham, uchun joy va vaqt ajratilgan.",
+
+  "about_subheader_1": "BINONING TARIXI", 
+  "about_text_3": "1965 yilda Respublika bolalar kutubxonasi 1880-yillarda Vadʼyayev biradarning uyini oʻrganib chiqdi, u 1909 yilda shaharga sotdi. U vaqtida arxitektor Ivan Markevich tomonidan loyihalangan, kelajakda Toshkent shahri arxitektori boʻladi. Binolar boshlangʻich ravishda boshqalardan farq qilardi, arxitekturasi sababli. Rekonstruksiya va qisman tiklanish davomida tarixiy va madaniy mirasni faqat saqlash emas, balki 19-asr butun qiziqishlarni integratsiyalashga muvaffaq boʻldi. Joy kasbiy ravishda oʻzining ishlaydigan, rivojlanayotgan holatini namoyish etadi va arxitektura yodgorlik bilan ishlashni va jamoatchilik maydonlarini qayta rejalashtirishni koʻrsatadi.",
+
+  "about_subheader_2": "Madaniyat va sanʼat rivojlantirish fondi", 
+  "about_text_4": "Respublika bolalar kutubxonasining rekonstruksiyasi, qayta ishga tushirilishi va dasturlashini madaniyat va sanʼatni rivojlantirish fondi ishlab chiqudi. Bu Oʻzbekistonda boshlanayotgan birinchi oʻxshash loyihadir. Misol vaqti kelgachasida Fondning asosiy maqsadi kutubxonani xalqaro darajadagi zamonaviy institut sifatida saqlash va rivojlantirish vazifasini oʻz zimmasiga oladi, uning faoliyatini muvofiqlashtiradi va rivojlantirish uchun zarur imkoniyat va resurslarni taqdim etadi. Bu loyiha zamonaviy shahar jamoatchilik maydonini yaratish kontekstida arxitektura yodgorlikni saqlash, aktualizatsiyalash va qayta rejalashtirishning sababi boʻldi."
 }

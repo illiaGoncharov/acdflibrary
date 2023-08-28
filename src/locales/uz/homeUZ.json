@@ -1,14 +1,35 @@
 { 
-  "hero-headline": "Церемония открытия Республиканской детской библиотеки",
-  "hero-zadumana": "Лекции, мастер-классы, спектакль под открытым небом в обновленной библиотеке.",
-  "hero-button" : "Подробнее",
+  "hero-headline": "Respublika Maktabgacha Kutubxonasi ochilish marosimi",
+  "hero-zadumana": "Respublika bolalar kutubxonasining tantanali ochilish marosimi Yangilangan kutubxona makonida ma’ruzalar, mahorat darslari, ochiq osmon ostidagi sahna chiqishlari.",
+  "hero-button" : "Batafsil",
 
-  "about_header": "О библиотеке", 
-  "about_text": "Республиканская детская библиотека — современная книжная институция, культурный центр и общественно пространство для детей и взрослых в историческом здании. В сердце проекта — библиотека, которую знают и помнят Ташкентцы, теперь это обновленное и живое место, где можно читать книги и обмениваться идеями, учиться и развиваться.",
-  "about_button": "Подробнее",
+  "about_header": "Kutubxona haqida", 
+  "about_text": "Respublika bolalar kutubxonasi Toshkent shahri markazidagi zamonaviy va ko‘p tarmoqli jamoat maskani bo‘lib, u bolalar va yoshlarning intellektual va ijodiy qobiliyatlarini yuzaga chiqarib, yanada kamol toptirish uchun zarur bo‘lgan barcha afzal jihatlarni o‘zida mujassam etadi.",
+  "about_button": "Batafsil",
 
-  "info_text": "В нашей библиотеке есть место не только книгам: мы проводим мастерклассы, занятия с педагогами и другие классы", 
+  "info_text": "Kutubxona mutolaa zavqi va maskanimizda hozir bo‘lishdan maroq olishni istagan har bir kishi uchun ochiqdir.",
 
-  "form_header": "Почтовая рассылка",
-  "form_text": "Подпишитесь на нашу рассылку и получайте новости о последних мероприятиях Библиотеки первыми"
+  "events_header": "Tadbirlar", 
+  "events_theme_1": "HAMMA UCHUN ", 
+  "events_inner_header_1": "Respublika Maktabgacha Kutubxonasi ochilish marosimi", 
+  "events_text_1": "Respublika bolalar kutubxonasining tantanali ochilish marosimi Yangilangan kutubxona makonida ma’ruzalar, mahorat darslari, ochiq osmon ostidagi sahna chiqishlari.",  
+  "events_date_1": "<span>31</span>- avgustdan boshlab",
+  "events_date_1+": "<div><span>Boshlanish</span> 12:00</div>",
+  "events_inner_more_1": "Batafsil",
+
+  "events_theme_2": "Bolalar uchun ", 
+  "events_inner_header_2": "Mahorat darslari — 2–3-sentabr kunlari", 
+  "events_text_2": "Sentabr oyining ilk dam olish kunlarida murabbiylar bilan ijodiy mashg‘ulotlar",  
+  "events_date_2": "2–3-sentabr kunlari",
+
+  "events_inner_header_3": "Kitobxonlar klubi", 
+  "events_text_3": "Yilning eng a’lo kitoblaridan birini muhokama qilish uchun har haftalik jamoat uchrashuvlari",  
+
+  "events_theme_4": "Bolalar uchun", 
+  "events_inner_header_4": "Men O‘zbekistonda yashayman", 
+  "events_text_4": "Markaziy Osiyoda bolalar adabiyoti va kitob noshirligi tarixi",  
+  "events_date_4": "31-avgustdan boshlab",
+
+  "form_header": "Axborotnoma",
+  "form_text": "Kutubxonaga oid soʻnggi yangiliklar bevosita pochta qutingizda"
 }

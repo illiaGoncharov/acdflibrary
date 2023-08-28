@@ -1,6 +1,6 @@
 import styles from "./Info.module.css";
-import birdImage from "../../images/main_page_info.png";
-import inkImage from "../../images/main_page_ink.png";
+import birdImage from "../../../images/main_page_info.png";
+import inkImage from "../../../images/main_page_ink.png";
 
 import { useTranslation } from 'react-i18next';
 

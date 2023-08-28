@@ -1,6 +1,13 @@
-{ 
-  "menu-about": "О Библиотеке",
-  "menu-events": "События",
-  "menu-media": "Материалы",
-  "menu-help": "ОТКРЫТЫ СЕГОДНЯ 10:00 - 21:00"
+{
+  "about_header": "About the Library",
+
+  "about_big-text": "The Republican Children's Library is a modern book institution, a cultural center, and a public space for children and adults in a historic building.",
+  "about_text_1": "At the heart of the project is a children's library known to and remembered by the people of Tashkent: it has been operating at this location since 1965. Today, the library is an open book fund, a public program with workshops, interest-based clubs, and free access to information for everyone.",
+  "about_text_2": "The main focus of the program is on children aged 3 to 16. For them, the library provides a conducive environment for learning, creativity, and potential development. We also believe this is important not only for children but also for adults, for whom there is a place and time in the library's program.",
+
+  "about_subheader_1": "HISTORY OF THE BUILDING", 
+  "about_text_3": "In 1965, the Republican Children's Library moved into the mansion built in the 1880s by the Vad'yayev brothers, which they sold to the city in 1909. At the same time, an extension was added to the mansion based on the design of architect Ivan Markevich, who would become the city architect of Tashkent. The building stood out from the rest due to its architecture. Through the process of reconstruction and partial restoration, not only was historical and cultural heritage preserved, but a 19th-century monument was also integrated into the modern urban context. The place becomes alive and self-developing, demonstrating an example of modern work with architectural heritage and reimagining public spaces.",
+
+  "about_subheader_2": "CULTURE AND ART DEVELOPMENT FUND", 
+  "about_text_4": "The reconstruction, relaunch, and reprogramming of the Republican Children's Library were initiated by the Culture and Art Development Fund. This is the first similar project launched in Uzbekistan. As part of its mission, the Fund takes on the task of maintaining and developing the library as a modern institution of international level, actualizing its work, and providing necessary opportunities and resources for development. The project became a precedent for preserving, updating, and reimagining architectural heritage in the context of creating a modern urban public space."
 }

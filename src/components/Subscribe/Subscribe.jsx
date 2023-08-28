@@ -4,7 +4,7 @@ import arrow from '../../images/arrow-right [footer].svg';
 import { useTranslation } from 'react-i18next';
 
 function SubscribeForm({ customStyles }) {
-    const { t } = useTranslation();
+    const { t } = useTranslation('footer');
 
     const [email, setEmail] = useState('');
     const [emailError, setEmailError] = useState('');

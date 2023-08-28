@@ -1,7 +1,7 @@
 import styles from './About.module.css';
 
-import formOne from './../../images/about_1.png';
-import formTwo from './../../images/about_3.png';
+import formOne from './../../../images/about_1.png';
+import formTwo from './../../../images/about_3.png';
 
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';

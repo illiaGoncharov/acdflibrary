@@ -1,14 +1,35 @@
-{ 
-  "hero-headline": "Церемония открытия Республиканской детской библиотеки",
-  "hero-zadumana": "Лекции, мастер-классы, спектакль под открытым небом в обновленной библиотеке.",
-  "hero-button" : "Подробнее",
+{
+  "hero-headline": "Opening Ceremony of the Republican Children's Library",
+  "hero-zadumana": "Lectures, workshops, open-air performances in the renovated library.",
+  "hero-button": "Learn More",
 
-  "about_header": "О библиотеке", 
-  "about_text": "Республиканская детская библиотека — современная книжная институция, культурный центр и общественно пространство для детей и взрослых в историческом здании. В сердце проекта — библиотека, которую знают и помнят Ташкентцы, теперь это обновленное и живое место, где можно читать книги и обмениваться идеями, учиться и развиваться.",
-  "about_button": "Подробнее",
+  "about_header": "About the Library",
+  "about_text": "The Republican Children's Library is a modern book institution, a cultural center, and a public space for children and adults in a historic building. At the heart of the project is a library known to and remembered by the people of Tashkent, now a renewed and vibrant place to read books, exchange ideas, learn, and grow.",
+  "about_button": "Learn More",
 
-  "info_text": "В нашей библиотеке есть место не только книгам: мы проводим мастерклассы, занятия с педагогами и другие классы", 
+  "info_text": "The library is open to all who want to enjoy reading and spending time in our space",
 
-  "form_header": "Почтовая рассылка",
-  "form_text": "Подпишитесь на нашу рассылку и получайте новости о последних мероприятиях Библиотеки первыми"
+  "events_header": "Events",
+  "events_theme_1": "For Everyone",
+  "events_inner_header_1": "Opening Ceremony of the Republican Children's Library",
+  "events_text_1": "Lectures, workshops, open-air performances in the renovated library.",
+  "events_date_1": "August 31, 2023",
+  "events_date_1+": "<div><span>Start</span> 12:00</div>",
+  "events_inner_more_1": "Learn More",
+
+  "events_theme_2": "For Children",
+  "events_inner_header_2": "Workshops on September 2-3",
+  "events_text_2": "Creative activities with educators on the first weekend of September.",
+  "events_date_2": "September 2-3",
+
+  "events_inner_header_3": "Reading Club",
+  "events_text_3": "Weekly community meetings to discuss the book of the month",
+
+  "events_theme_4": "For Children",
+  "events_inner_header_4": "I Live in Uzbekistan",
+  "events_text_4": "History of children's literature and publishing in Central Asia",
+  "events_date_4": "Starting from August 31",
+
+  "form_header": "Mailing List",
+  "form_text": "Subscribe to our mailing list and be the first to receive news about the latest library events"
 }

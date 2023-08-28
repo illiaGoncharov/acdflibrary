@@ -1,6 +1,6 @@
 import styles from './Form.module.css';
-import formImage from "../../images/form.png";
-import Subscribe from "../../components/Subscribe/Subscribe";
+import formImage from "../../../images/form.png";
+import Subscribe from "../../../components/Subscribe/Subscribe";
 import { useTranslation } from 'react-i18next';
 
 function Form() {

@@ -1,11 +1,11 @@
 import styles  from "./EventsPage.module.css";
-import Events from "../../components/Events/Events";
+import Events from "../../components/Home/Events/Events";
 
 const EventsPage = () => {
     return (
         <>
             <div className={styles.events_page}>
-                <Events customStyles={styles}/>
+                <Events />
             </div>
         </>
     );
