@@ -1,0 +1,60 @@
+.event_hero {
+    background-color: #F49D61;
+}
+
+.event_hero {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.event_hero img {
+    width: 40%;
+}
+
+.event_header {
+    color: #F6F5F1;
+    font-family: "Stratos";
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.event_subheader {
+    color: #F6F5F1;
+    padding-top: 29px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.childhood_text {
+    padding-left: 100px;
+    padding-top: 47px;
+    padding-bottom: 60px;
+    max-width: 650px;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.swiper {
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.bg {
+    position: absolute;
+    top: -48px;
+    z-index: -1;
+    left: -48px;
+    width: 100vw;
+    max-width: 1440px;
+    height: auto;
+}
