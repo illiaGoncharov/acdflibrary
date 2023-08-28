@@ -18,6 +18,7 @@ const SimpleSwiper = ({ imageUrls }) => {
                 showArrows={false}
                 showStatus={false} 
                 showIndicators={false}
+                showThumbs={false}
                 emulateTouch={true}
                 infiniteLoop={true}
                 swipeable={true} 
