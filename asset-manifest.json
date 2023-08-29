@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/acdflibrary/static/css/main.737ccaa2.css",
-    "main.js": "/acdflibrary/static/js/main.3b45dc6e.js",
+    "main.css": "/acdflibrary/static/css/main.22fb1596.css",
+    "main.js": "/acdflibrary/static/js/main.482292ef.js",
     "static/js/787.154ea238.chunk.js": "/acdflibrary/static/js/787.154ea238.chunk.js",
     "static/media/about_page_lepnina.png": "/acdflibrary/static/media/about_page_lepnina.240471bab78e01d8ed3b.png",
     "static/media/1.png": "/acdflibrary/static/media/1.3b34261bd300f70595df.png",
@@ -51,12 +51,12 @@
     "static/media/header_cross.svg": "/acdflibrary/static/media/header_cross.f79627942bcfd7f02e4a421c9310e069.svg",
     "static/media/header_ham.svg": "/acdflibrary/static/media/header_ham.bcbebe0b896a67bffce6fd6c9ad27907.svg",
     "static/media/arrow-right [footer].svg": "/acdflibrary/static/media/arrow-right [footer].8367b7be2b692c745136e61033d8320b.svg",
-    "main.737ccaa2.css.map": "/acdflibrary/static/css/main.737ccaa2.css.map",
-    "main.3b45dc6e.js.map": "/acdflibrary/static/js/main.3b45dc6e.js.map",
+    "main.22fb1596.css.map": "/acdflibrary/static/css/main.22fb1596.css.map",
+    "main.482292ef.js.map": "/acdflibrary/static/js/main.482292ef.js.map",
     "787.154ea238.chunk.js.map": "/acdflibrary/static/js/787.154ea238.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.737ccaa2.css",
-    "static/js/main.3b45dc6e.js"
+    "static/css/main.22fb1596.css",
+    "static/js/main.482292ef.js"
   ]
 }
